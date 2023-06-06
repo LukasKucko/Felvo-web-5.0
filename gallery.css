@@ -596,7 +596,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 #img-home-head{
     display: block;
     width:100vw;
-    height:70vh;
+    height:40vh;
     background-image: url('images/home-backx-pc.jpg');
     background-attachment:fixed;
     background-position: center;
@@ -662,7 +662,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     display: flex;
     position: absolute;
     justify-content: space-around;
-    top:100px;
+    top:180px;
     height: 800px;
     width: 70vw;
     left: 15vw;
