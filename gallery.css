@@ -596,7 +596,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 #img-home-head{
     display: block;
     width:100vw;
-    height:40vh;
+    height:60vh;
     background-image: url('images/home-backx-pc.jpg');
     background-attachment:fixed;
     background-position: center;
@@ -663,8 +663,8 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     position: absolute;
     justify-content: space-around;
     top:180px;
-    height: 300px;
-    width: 70vw;
+    height: 150px;
+    width: 40vw;
     left: 15vw;
     padding-bottom: 40px;
     vertical-align: middle;
@@ -683,7 +683,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     flex-flow: column;
     background-color: none;
     width:100vw;
-    height: 740px;
+    height: 1200px;
     margin-top: 90px;
 }
 
@@ -699,7 +699,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 #home-p-center{
     display: block;
-    height: 400px;
+    height: 1000px;
     margin-top: 15px;
     overflow: visible;
 }
@@ -710,7 +710,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     margin-bottom: 10px;
     font-family: 'Finger Paint', cursive;
     
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #home-p-center p:nth-child(1){
