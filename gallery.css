@@ -600,7 +600,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     background-image: url('images/home-backx.jpg');
     background-attachment:fixed;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -698,19 +698,21 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 #home-p-center{
-    display: block;
-    height: 1500px;
+    display: flex;
+    justify-content: center;
+    height: 1000px;
     width: 90vw;
     margin-top: 15px;
     overflow: hidden;
 }
 
 #home-p-center  p{
+    display: inline-block;
     
     margin-bottom: 10px;
     font-family: 'Finger Paint', cursive;
     
-    font-size: 20px;
+    font-size: 6vw;
 }
 
 #home-p-center p:nth-child(1){
