@@ -710,7 +710,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     margin-bottom: 10px;
     font-family: 'Finger Paint', cursive;
     text-align: center;
-    font-size: 5vw;
+    font-size: 20vw;
 }
 
 #home-p-center p:nth-child(1){
