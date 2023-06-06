@@ -663,7 +663,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     position: absolute;
     justify-content: space-around;
     top:180px;
-    height: 800px;
+    height: 300px;
     width: 70vw;
     left: 15vw;
     padding-bottom: 40px;
