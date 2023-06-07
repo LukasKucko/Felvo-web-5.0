@@ -694,12 +694,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 #home-p-center{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 1000px;
     width: 90vw;
     margin-top: 15px;
@@ -707,40 +707,11 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 #home-p-center  p{
-    display: inline-block;
-    
+    display: inline-block;    
     margin-bottom: 10px;
-    font-family: 'Finger Paint', cursive;
-    
+    font-family: 'Finger Paint', cursive;   
     font-size: 6vw;
 }
-
-#home-p-center p:nth-child(1){
-    transform: rotate(-15deg);
-}
-
-#home-p-center p:nth-child(2){
-    transform: rotate(-10deg);
-    
-}
-
-#home-p-center p:nth-child(3){
-    transform: rotate(-5deg);
-}
-
-#home-p-center p:nth-child(5){
-    transform: rotate(5deg);
-}
-
-#home-p-center p:nth-child(6){
-    transform: rotate(10deg);
-}
-
-#home-p-center p:nth-child(7){
-    transform: rotate(15deg);
-}
-
-
 
 #home-p-center > p > a{
     text-decoration: none;
