@@ -596,9 +596,9 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 #img-home-head{
     display: block;
     width:100vw;
-    height:50vh;
-    background-image: url('images/home-backx.jpg');
-    background-attachment:fixed;
+    height:65vh;
+    background-image: url('images/home-back2.jpg');
+    background-attachment: scroll;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -615,7 +615,8 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     font-family: 'Bungee Shade', cursive;
     top: 100px;
     font-weight: 800; 
-    font-size: 6.3vw;
+    font-size: 6.3vw; 
+     
     z-index: 0; 
     
 } 
@@ -633,10 +634,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 .ml9 .letter { 
     transform-origin: 50% 100%; 
     display: inline-block; 
-    line-height: 3vh; 
-    color: #fff;
+     
+    color: #000;
     
 }
+
+
 
 @media(min-width: 1024px){
     .ml9{
@@ -644,6 +647,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
         top:70px;
         left: 15vw;
         font-size: 5vw;
+        
     }
 }
 
@@ -661,11 +665,9 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     display: flex;
     position: absolute;
     justify-content: space-around;
-    top:250px;
-    height: 20vh;
+    height: 600px;
     width: 50vw;
     left: 25vw;
-    align-content: center;
     padding-bottom: 40px;
     vertical-align: middle;
 }
@@ -676,42 +678,53 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 
-
+@media(min-width: 1024px){
+   #home-video{
+       top:150px;
+       left: 30vw;
+       width: 40vw;
+       height: 300px;
+   } 
+}
 
 #container-portfolio{
     display:flex;
     flex-flow: column;
     background-color: none;
     width:100vw;
-    height: 2000px;
-    margin-top: 90px;
+    height: 1300px;
+    
+    background-color: #e9e9fe;
 }
 
 
 #h2-portfolio{
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 100px;
     font-family: 'Bungee Shade', cursive;
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
-    font-size: 8vw;
+    
 }
 
 #home-p-center{
-    display: flex;
-    justify-content: space-around;
-    height: 1000px;
-    width: 90vw;
+    display: block;
+    height: 900px;
     margin-top: 15px;
-    overflow: hidden;
+    overflow: visible;
+    
 }
 
-#home-p-center  p{
-    display: inline-block;    
+#home-p-center > p{
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 10px;
-    font-family: 'Finger Paint', cursive;   
+    margin-top: 30px;
+    text-align: center;
     font-size: 6vw;
 }
+
 
 #home-p-center > p > a{
     text-decoration: none;
