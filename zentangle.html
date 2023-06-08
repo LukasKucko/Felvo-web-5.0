@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+ <head>
+      <meta charset="UTF-8" /> 
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="gallery.css" /> 
+   <link rel="stylesheet" type="text/css" href="lightbox.css" /> 
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>        
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>   
+
+ <!-- script for page animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- script for image album Lightbox -->
+  <script type="text/javascript" src="script.js"></script>
+        
+
+ <title>Zentangle</title>
+</head>
+
+<body>
+  <!-- script for page animation -->
+  <script>   AOS.init(); </script>      
+  
+  <div class="wrapper"> 
+    <nav>
+      <div class="art-zem">Art    ZEM</div>
+      <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">  
+      <label class="m-menu__toggle" for="menu"> 
+      <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs">
+      <line x1="3" y1="12" x2="21" y2="12">
+      </line>
+      <line x1="3" y1="6" x2="21" y2="6">
+      </line>
+      <line x1="3" y1="18" x2="21" y2="18">
+      </line>
+     </svg> 
+    </label>
+    <div class="m-menu"> 
+     <div class="m-menu__header"> 
+      <label class="m-menu__toggle" for="menu"> 
+       <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs"> 
+        <line x1="18" y1="6" x2="6" y2="18">
+        </line> 
+        <line x1="6" y1="6" x2="18" y2="18">           
+        </line> 
+       </svg>
+      </label>
+    </div> 
+   <ul>
+    <li>
+     <a href="index.html">Domov</a>
+    </li>
+    <li> 
+     <label class="a-label-right" for="item-2">Moje štýly</label>
+      <input type="checkbox" id="item-2" name="item-2" class="m-menu__checkbox"> 
+       <div class="m-menu">
+        <div class="m-menu__header"> 
+         <label class="m-menu__toggle" for="item-2">
+          <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="whitesmoke" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs">
+          <path d="M19 12H6M12 5l-7 7 7 7"/>
+         </svg>
+        </label>
+       </div> 
+       <ul> 
+       <li>
+      <a href="board-writting.html">Board writting</a>
+       </li>
+        <li>
+         <a href="calligraphy.html">Caligraphy</a>
+        </li>
+        <li> 
+          <a href="glass-painting.html">Glass painting</a>
+        </li>
+       <li>
+        <a href="gold-gilding.html">Gold gilding</a>
+       </li>
+       <li>
+       <a href="lettering.html">Lettering</a>
+       </li>  
+       <li>
+        <a href="wood-carving.html">Wood carving</a>
+       </li>
+        <li>
+        <a href="zentangle.html">Zentangle</a>
+       </li>
+     </div> 
+   </li>
+   <li>
+   <a href="how-it's-made.html">Niečo z tvorby(foto)</a> 
+   </li>
+   <li>
+    <a href="/how-it's-made-video.html">Niečo z tvorby(video)</a>
+   </li>
+   <li>
+    <a href="about.html">O mne</a>
+   </li>
+  </ul> 
+ </div>
+</nav>
+</div>
+<header>
+ <section>
+<div id="zentangle-back">
+  <h1 class="ml12-zen" id="zen-h1">Zentangle</h1> 
+  </div>
+</header>  
+<script>
+ textWrapper = document.querySelector('.ml12-zen'); textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter-zen'>$&</span>"); anime.timeline({loop: false}) .add({ targets: '.ml12-zen .letter-zen', translateX: [40,0], translateZ: 0, opacity: [0,1], easing: "easeOutExpo", duration: 1200, delay: (el, i) => 500 + 150 * i });</script>  
+
+
+ <!-- class for page animation -->
+ <div data-aos="flip-left"      data-aos-easing="ease-out-cubic"      data-aos-duration="1000">
+      
+      
+      
+<p id="zentangle-p">
+Už samotný názov v sebe spája zenovú meditáciu a kresbu. Podstatou tejto techniky je relax. Meditatívny proces je prvoradý. Kresba pozostáva z rôznych štruktúrovaných tvarov a opakujúcich sa vzorov. Žiadny ťah v tomto prípade nieje chybný a nepotrebuje gumu, je súčasťou unikátneho celku.
+</p>
+</div>
+</section>
+
+
+	<hr style="background-color:#35211b;width:80%;margin:auto;margin-top:30px;margin-bottom:30px;">	
+
+		   <div class="gallery">
+		        <a href="images/z1.jpg" data-lightbox="Zentangle" data-title="Lev">
+		      <img src="images/z1.jpg" alt="z1">
+		      </a>
+		       <a href="images/z2.jpg" data-lightbox="Zentangle" data-title="ZEM">
+		<img src="images/z2.jpg" alt="z2">
+		</a>
+		 <a href="images/z3.png" data-lightbox="Zentangle" data-title="Pali">
+		<img src="images/z3.png" alt="z3">  
+		</a>
+		    
+		</div>
+		
+		
+
+</body>
+</html>
+
+
+
+
+
+
+
