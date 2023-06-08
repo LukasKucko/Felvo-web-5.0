@@ -1,37 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">
 <html>
  <head>
-      <meta charset="UTF-8" /> 
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       <meta name="description" content="Board writting, handmade.">
-        <link rel="stylesheet" type="text/css" href="gallery.css">
-        
-    <!-- css for lightbox image gallery -->
-         <link rel="stylesheet" type="text/css" href="lightbox.css"> 
-
-   <!-- script for image album Lightbox -->
-  <script type="text/javascript" src="script.js"></script>
-        
-  
-  <!-- script for h1 -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>      
-
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="gallery.css" /> 
+    <link rel="stylesheet" type="text/css" href="lightbox.css" /> 
+	 
+<!-- script for image album Lightbox -->
+    <script type="text/javascript" src="script.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>      
      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>   
-     
-  <!-- script for page animation -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>          
-     
+ <!-- script for page animation -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
          
  <title>Board writting</title>
 </head>
 <body>
   <!-- script for page animation -->
-   <script>   AOS.init(); </script> 
-  <header>
-   
+  <script>   AOS.init(); </script> 
   <div class="wrapper"> 
     <nav>
       <div class="art-zem">Art    ZEM</div>
@@ -97,10 +86,10 @@
      </div> 
    </li>
    <li>
-   <a href="how-its-made.html">Niečo z tvorby(foto)</a> 
+   <a href="how-it's-made.html">Niečo z tvorby(foto)</a> 
    </li>
    <li>
-    <a href="how-its-made-video.html">Niečo z tvorby(video)</a>
+    <a href="how-it's-made-video.html">Niečo z tvorby(video)</a>
    </li>
    <li>
     <a href="about.html">O mne</a>
@@ -109,52 +98,34 @@
  </div>
 </nav>
 </div>
-
-
-
- 
-
-    <div id="board-h1-back">
-    <h1 class="ml2-board">Board writting</h1>
-    </div>
-
+<header>
+<div id="board-h1-back">
+  <h1 class="ml2-board">Board writting</h1>
+ </div>
 <script>
    var textWrapper = document.querySelector('.ml2-board'); textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter-board'>$&</span>"); anime.timeline({loop: false}) .add({ targets: '.ml2-board .letter-board', scale: [4,1], opacity: [0,1], translateZ: 0, easing: "easeOutExpo", duration: 950, delay: (el, i) => 70*i }).add({ targets: '.ml2-board', duration: 1000, easing: "easeOutExpo", delay: 1000 }); 
-    </script>
+ </script>
 </header>
 <section>
-    
-    
   <!--  class for page animation -->
   <div data-aos="zoom-in-left"
    data-aos-duration="800">  
-    
-    
-    
-<p id="board-p">
+     
+  <p id="board-p">
 Písanie na tabuľu ale aj rôzne iné povrchy v sebe zahŕňa rôzne texty, nápisy, väčšinou menu, ponúkaný sortiment prípadne názov firmy ako aj rôzne oznamy. Texty môžu byť doplnené menšími jednoduchými obrázkami. Realizovať sa dá rôznymi spôsobmi, no v súčastnosti sa najčastejšie používa kriedová fixka bielej farby. Je vodou zmývatelná ale zároveň s dostačujúcou odolnosťou pri šetrnom zaobchádzaní.
-</p>
-</div>
-
-
+  </p>
 <hr style="background-color:#000;width:80%;margin:auto;margin-top:30px;margin-bottom:30px;">
-
-		    <div class="gallery">
-		        <a href="images/tw1.jpg" data-lightbox="models" data-title="Jarné menu">
-		  <img src="images/tw1.jpg" alt="tw1">
-		      </a>
-		        <a href="images/tw2.jpg" data-lightbox="models" data-title="Divinové dni">
-		  <img src="images/tw2.jpg" alt="tw2">
-		      </a>
-		       <a href="images/tw3.jpg" data-lightbox="models" data-title="Nové menu pre vás">
-		  <img src="images/tw3.jpg" alt="tw3">
-		      </a> 
-	 </div>
-	
-		
-		
-
-		
+ <div class="gallery">
+   <a href="images/tw1.jpg" data-lightbox="models" data-title="Jarné menu">
+     <img src="images/tw1.jpg" alt="tw1">
+   </a>
+   <a href="images/tw2.jpg" data-lightbox="models" data-title="Divinové dni">
+     <img src="images/tw2.jpg" alt="tw2">
+   </a>
+   <a href="images/tw3.jpg" data-lightbox="models" data-title="Nové menu pre vás">
+     <img src="images/tw3.jpg" alt="tw3">
+   </a> 
+ </div>
 </body>
 </html>
 
