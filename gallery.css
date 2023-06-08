@@ -99,6 +99,7 @@ nav > .art-zem{
     position: absolute;
     top: -1.5%;
     left:25%;
+    overflow:hidden;
     font-size: 45px;
     letter-spacing: 5px;
     font-family: 'The Nautigal', cursive;
@@ -615,7 +616,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     font-family: 'Bungee Shade', cursive;
     top: 100px;
     font-weight: 800; 
-    font-size: 2vw; 
+    font-size: 5vw; 
      
     z-index: 0; 
     
