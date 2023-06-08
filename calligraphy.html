@@ -1,37 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">
 <html>
  <head>
-      <meta charset="UTF-8" /> 
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="gallery.css">
-  <link rel="stylesheet" type="text/css" href="lightbox.css"> 
-
- <!-- script for image album Lightbox -->
-  <script type="text/javascript" src="script.js"></script>
-        
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>      
-            
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    
-    <!-- script for page animation -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>      
-    
-    
-    
-         <title>Calligraphy</title>
-         </head>
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="gallery.css" /> 
+    <link rel="stylesheet" type="text/css" href="lightbox.css" /> 
+	 
+<!-- script for image album Lightbox -->
+    <script type="text/javascript" src="script.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>      
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>   
+ <!-- script for page animation -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <title>Calligraphy</title>
+   </head>
   <body>
-      
-       <!-- script for page animation -->
-  <script>   AOS.init(); </script> 
- 
-  <header>
-   
-  <div class="wrapper"> 
+  <!-- script for page animation -->
+  <script>   AOS.init(); </script>  
+   <div class="wrapper"> 
     <nav>
       <div class="art-zem">Art    ZEM</div>
       <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">  
@@ -51,8 +40,7 @@
        <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs"> 
         <line x1="18" y1="6" x2="6" y2="18">
         </line> 
-        <line x1="6" y1="6" x2="18" y2="18">           
-        </line> 
+        <line x1="6" y1="6" x2="18" y2="18">         </line> 
        </svg>
       </label>
     </div> 
@@ -108,78 +96,62 @@
  </div>
 </nav>
 </div>
-
 <header>
-    <div id="calli-back">
+ <div id="calli-back">
   <h1 class="ml12-calli"  >Calligraphy</h1>
-  </div> 
-</header>  
-
-<script>
+ </div> 
+ <script>
  textWrapper = document.querySelector('.ml12-calli'); textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter-calli'>$&</span>"); anime.timeline({loop: false}) .add({ targets: '.ml12-calli .letter-calli', translateX: [40,0], translateZ: 0, opacity: [0,1], easing: "easeOutExpo", duration: 800, delay: (el, i) => 200 + 100 * i });</script>  
 </header>
-
+<secrion>
 <!-- class for page animation -->
  <div data-aos="zoom-in"           data-aos-duration="1000">
-
 <p id="cali-p">
    Kaligrafia (z gréčtiny καλλιγραφία (kalligraphía) „krásne písanie“) je vizuálne umenie súvisiace s písaním a je to návrh a vyhotovenie písma perom, štetcom alebo iným nástrojom na písanie.Súčasná kaligrafická prax môže byť  definovaná ako „umenie dať tvar znakom expresívnym, harmonickým a zručným spôsobom.Moderná kaligrafia siaha od funkčných nápisov a vzorov až po umelecké diela, kde písmená môžu alebo nemusia byť čitateľné. 
    Kaligrafia naďalej prekvitá vo forme svadobných pozvánok a pozvánok na udalosti, písma a typografie, originálneho ručne písaného loga, náboženského umenia, oznámení, grafického dizajnu a kaligrafického umenia na objednávku.Používa sa tiež na rekvizity a pohyblivé obrázky pre film a televíziu a iné písomné diela.
 </p>
-</div>
-
-
-
+</section>
 <hr style="background-color:#000;width:80%;margin:auto;margin-top:30px;margin-bottom:30px;">
-
-
- <div data-aos="fade-up"      data-aos-anchor-placement="center-bottom"> 
-
-
-		    <div class="gallery">
-		        <a href="images/calli7.jpg" data-lightbox="models" data-title="Slovakia Belgium">
-		  <img src="images/calli7.jpg" alt="calli7.jpg">
-		      </a>
-		   <a href="images/calli9.jpg" data-lightbox="models" data-title="Načo je tvor čo netvorí">
-		  <img src="images/calli9.jpg" alt="calli9.jpg">
-		      </a>
-		      <a href="images/calli10.jpg" data-lightbox="models" data-title="Tvor čo netvorí je netvor">
-		  <img src="images/calli10.jpg" alt="calli10.jpg">
-		      </a>   
-      <a href="images/calli11.jpg" data-lightbox="models" data-title="Life is colorful">
-		  <img src="images/calli11.jpg" alt="calli11.jpg">
-		      </a>
-<a href="images/calli12.jpg" data-lightbox="models" data-title="">
-		  <img src="images/calli12.jpg" alt="calli12.jpg">
-		      </a>
-<a href="images/calli13.jpg" data-lightbox="models" data-title="Kreativita je droga">
-		  <img src="images/calli13.jpg" alt="calli13.jpg">
-		      </a>
-		    <a href="images/kaligrafia.jpg" data-lightbox="models" data-title="Nemýlme si aktivitu s úspechom">
-		  <img src="images/kaligrafia.jpg" alt="kaligrafia.jpg">
-		      </a>  
-		    <a href="images/nemylme.jpg" data-lightbox="models" data-title="Nemýlme si aktivitu s úspechom">
-		  <img src="images/nemylme.jpg" alt="namylme.jpg">
-		      </a>  
-		      <a href="images/stepka.jpg" data-lightbox="models" data-title="p.Štepka ...">
-		  <img src="images/stepka.jpg" alt="stepka.jpg">
-		      </a>
-		      <a href="images/stepka2.jpg" data-lightbox="models" data-title="p.Štepka ...">
-		  <img src="images/stepka2.jpg" alt="stepka2.jpg">
-		      </a>
-		      <a href="images/calli6.jpg" data-lightbox="models" data-title="In vino veritas">
-		  <img src="images/calli6.jpg" alt="calli6.jpg">
-		      </a>
-		      <a href="images/zeman.jpg" data-lightbox="models" data-title="Ľuboš Zeman">
-		  <img src="images/zeman.jpg" alt="zeman.jpg">
-		      </a>
-		 </div>     
+<div data-aos="fade-up"  data-aos-anchor-placement="center-bottom"> 
+<div class="gallery">
+  <a href="images/calli7.jpg" data-lightbox="models" data-title="Slovakia Belgium">
+    <img src="images/calli7.jpg" alt="calli7.jpg">
+  </a>
+  <a href="images/calli9.jpg" data-lightbox="models" data-title="Načo je tvor čo netvorí">
+    <img src="images/calli9.jpg" alt="calli9.jpg">
+  </a>
+  <a href="images/calli10.jpg" data-lightbox="models" data-title="Tvor čo netvorí je netvor">
+    <img src="images/calli10.jpg" alt="calli10.jpg">
+  </a>   
+  <a href="images/calli11.jpg" data-lightbox="models" data-title="Life is colorful">
+    <img src="images/calli11.jpg" alt="calli11.jpg">
+  </a>
+  <a href="images/calli12.jpg" data-lightbox="models" data-title="">
+    <img src="images/calli12.jpg" alt="calli12.jpg">
+  </a>
+  <a href="images/calli13.jpg" data-lightbox="models" data-title="Kreativita je droga">
+    <img src="images/calli13.jpg" alt="calli13.jpg">
+  </a>
+  <a href="images/kaligrafia.jpg" data-lightbox="models" data-title="Nemýlme si aktivitu s úspechom">
+    <img src="images/kaligrafia.jpg" alt="kaligrafia.jpg">
+  </a>  
+  <a href="images/nemylme.jpg" data-lightbox="models" data-title="Nemýlme si aktivitu s úspechom">
+    <img src="images/nemylme.jpg" alt="namylme.jpg">
+  </a>  
+  <a href="images/stepka.jpg" data-lightbox="models" data-title="p.Štepka ...">
+    <img src="images/stepka.jpg" alt="stepka.jpg">
+  </a>
+  <a href="images/stepka2.jpg" data-lightbox="models" data-title="p.Štepka ...">
+    <img src="images/stepka2.jpg" alt="stepka2.jpg">
+  </a>
+  <a href="images/calli6.jpg" data-lightbox="models" data-title="In vino veritas">
+    <img src="images/calli6.jpg" alt="calli6.jpg">
+  </a>
+  <a href="images/zeman.jpg" data-lightbox="models" data-title="Ľuboš Zeman">
+     <img src="images/zeman.jpg" alt="zeman.jpg">
+  </a>
+</div>     
 </div>
-		
-		
-		
-
-
 </body>
 </html>
 
