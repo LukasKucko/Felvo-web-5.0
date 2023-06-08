@@ -598,7 +598,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     display: block;
     width:100vw;
     height:65vh;
-    background-image: url('images/home-back2.jpg');
+    bacund-image: url('images/home-back2.jpg');
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
