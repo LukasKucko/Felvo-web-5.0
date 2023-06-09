@@ -11042,11 +11042,11 @@ return jQuery;
     imageFadeDuration: 600,
     // maxWidth: 800,
     // maxHeight: 600,
-    positionFromTop: 100,
+    positionFromTop: 200,
     resizeDuration: 700,
     showImageNumberLabel: true,
     wrapAround: true,
-    disableScrolling: false,
+    disableScrolling: true,
     /*
     Sanitize Title
     If the caption data is trusted, for example you are hardcoding it in, then leave this to false.
