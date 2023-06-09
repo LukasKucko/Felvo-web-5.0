@@ -11036,7 +11036,7 @@ return jQuery;
   // http://lokeshdhakar.com/projects/lightbox2/index.html#options
   Lightbox.defaults = {
     albumLabel: 'Image %1 of %2',
-    alwaysShowNavOnTouchDevices: false,
+    alwaysShowNavOnTouchDevices: true,
     fadeDuration: 600,
     fitImagesInViewport: true,
     imageFadeDuration: 600,
@@ -11046,7 +11046,7 @@ return jQuery;
     resizeDuration: 700,
     showImageNumberLabel: true,
     wrapAround: true,
-    disableScrolling: true,
+    disableScrolling: false,
     /*
     Sanitize Title
     If the caption data is trusted, for example you are hardcoding it in, then leave this to false.
