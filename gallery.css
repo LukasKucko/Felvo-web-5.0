@@ -588,12 +588,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 *
 *
 */
-
+        
 #img-home-head{
     display: block;
     width:100vw;
     height:65vh;
-    background-image: url('images/home-back2.jpg');
+    background-image: url('/storage/emulated/0/MAREK/Background/home-back2.jpg');
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
@@ -609,9 +609,9 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     left: 5vw;
     vertical-align: middle;
     font-family: 'Bungee Shade', cursive;
-    top: 100px;
+    top: 70px;
     font-weight: 800; 
-    font-size: 6vw; 
+    font-size: 6.3vw; 
     z-index: 0; 
     
 } 
@@ -629,7 +629,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 .ml9 .letter { 
     transform-origin: 50% 100%; 
     display: inline-block; 
-     
     color: #000;
     
 }
@@ -657,20 +656,19 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 
 #home-video{
-    display: flex;
+    display: block;
     position: absolute;
-    justify-content: space-around;
+    top: -50px;
     height: 600px;
     width: 50vw;
     left: 25vw;
-    top: 150px;
     padding-bottom: 40px;
     vertical-align: middle;
 }
 
 #home-video > video{
     align-content: center;
-    
+    margin: auto;
 }
 
 
@@ -683,6 +681,19 @@ nav .m-menu__checkbox:checked ~ .m-menu {
    } 
 }
 
+#home-h2{
+    display: block;
+    position: absolute;
+    top: 50vh;
+    width: 56%;
+    left: 22%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
 #container-portfolio{
     display:flex;
     flex-flow: column;
@@ -690,7 +701,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     width:100vw;
     height: 1300px;
     
-    background-color: #e9e9fe;
+    
 }
 
 
@@ -726,6 +737,9 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     text-decoration: none;
     color:#000;
 }
+
+    
+     
 
 
 /*
