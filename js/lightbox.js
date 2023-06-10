@@ -49,20 +49,17 @@
 /* Descriptions of all options available on the demo site: // http://lokeshdhakar.com/projects/lightbox2/index.html#options
 */    
    Lightbox.defaults = { albumLabel: 'Image %1 of %2', 
-   alwaysShowNavOnTouchDevices: true,  
-   fadeDuration: 600, 
-   fitImagesInViewport: true, 
-   imageFadeDuration: 600,
-   
-/* maxWidth: 800,
-   maxHeight: 600, 
-*/   
-   positionFromTop: 100, 
-   resizeDuration: 500,
-   showImageNumberLabel: true,
-   wrapAround: true,
-   disableScrolling: true, 
-      
+  alwaysShowNavOnTouchDevices: false,
+    fadeDuration: 600,
+    fitImagesInViewport: true,
+    imageFadeDuration: 600,
+    // maxWidth: 800,
+    // maxHeight: 600,
+    positionFromTop: 50,
+    resizeDuration: 700,
+    showImageNumberLabel: true,
+    wrapAround: false,
+    disableScrolling: false, 
 /* Sanitize Title If the caption data is trusted, for example you are hardcoding it in, then leave this to false. This will free you to add html tags, such as links, in the caption. If the caption data is user submitted or from some other untrusted source, then set this to true to prevent xss and other injection attacks. 
 */ 
       sanitizeTitle: false };
