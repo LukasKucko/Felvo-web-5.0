@@ -712,7 +712,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
-    
+    font-size: 12vw;
 }
 
 #home-p-center{
