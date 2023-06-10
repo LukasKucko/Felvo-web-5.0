@@ -384,18 +384,26 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 *
 *
 */
+
 .ml2-board{ 
     font-weight: 500; 
-    font-size: 12vw;
+    font-size: 11vw;
     font-family: 'Fredericka the Great', bolt;
     font-weight: normal;
     font-style: normal;
-    color:white;    
+    color:white;  
+    overflow-x: hidden;  
     } 
     
 .ml2-board .letter-board { 
     display: inline-block; 
      
+}
+
+@media(min-width: 2560px){
+    .ml2-board{
+        font-size: 8vw;
+    }
 }
 
 
@@ -408,9 +416,9 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     background-image: url('images/back7.jpg');
     background-attachment:fixed;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    ;
+    
 }
 
 #board-p{
@@ -418,6 +426,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     font-size: 17px;
     margin: 50px auto;
 }
+
 
 
 
