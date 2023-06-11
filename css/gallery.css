@@ -267,7 +267,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 */
 
 #about-back{
-   background-image: url('images/about-back.jpg'); 
+   background-image: url(../images/about-back.jpg); 
     background-attachment: fixed;
     background-position: center;
     background-size: 100% 100%;
@@ -338,7 +338,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 #call{
-    background-image: url('images/call.png');
+    background-image: url(../images/call.png);
     width: 30px;
     height: 30px;
     background-size: 100% 100%;
@@ -347,7 +347,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 #whats{
-    background-image: url('images/whats.png');
+    background-image: url(../images/whats.png);
     width: 30px;
     height: 30px;
     background-size: 100% 100%;
@@ -356,7 +356,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 #mail{
-    background-image: url('images/mail.png');
+    background-image: url(../images/mail.png);
     width: 30px;
     height: 30px;
     background-size: 100% 100%;
@@ -365,7 +365,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 #insta{
-    background-image: url('images/insta.png');
+    background-image: url(../images/insta.png);
     width: 30px;
     height: 30px;
     background-size: 100% 100%;
@@ -447,7 +447,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     height: 300px;
     align-items: center;
     justify-content: space-around;
-    background-image: url('images/calli-back.jpg');
+    background-image: url(../images/calli-back.jpg);
     background-attachment:fixed;
     background-position: center;
     background-size: 100% 100%;
@@ -487,7 +487,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 #glass-back{
     
-    background-image: url('images/glass-back.jpg'); 
+    background-image: url(../images/glass-back.jpg); 
     background-attachment: fixed;
     background-position: center;
     background-size: 100% 100%;
@@ -525,14 +525,9 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     display: inline-block; 
     transform-origin: 0 0; 
 }
-
-
-
-
 #glass-p{
     color: #000;
     margin: 50px auto;
-    
 }
 
 /*
@@ -551,7 +546,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     height: 300px;
     align-items: center;
     justify-content: space-around;
-    background-image: url('images/gold-h1-back.jpg');
+    background-image: url(../images/gold-h1-back.jpg);
     background-attachment:fixed;
     background-position: center;
     background-size: 100% 100%;
@@ -582,7 +577,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     display: inline-block; 
 }
 
-
 #gold-p{
    color: #000;
    margin: 50px auto;
@@ -602,7 +596,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     display: block;
     width:100vw;
     height:65vh;
-    background-image: url('images/home-back2.jpg');
+    background-image: url(../images/home-back2.jpg);
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
@@ -622,7 +616,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     font-weight: 800; 
     font-size: 6.3vw; 
     z-index: 0; 
-    
 } 
 
 .ml9 .text-wrapper { 
@@ -642,16 +635,13 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     
 }
 
-
-
 @media(min-width: 1024px){
     .ml9{
         width: 70vw;
         top:70px;
         left: 15vw;
         font-size: 5vw;
-        
-    }
+        }
 }
 
 @media(min-width: 2560px){
@@ -709,8 +699,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     background-color: none;
     width:100vw;
     height: 2400px;
-    
-    
 }
 
 
@@ -767,7 +755,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     width: 100vw;
     height: 55vh;
     
-    background-image: url('images/how-back5.jpg');
+    background-image: url(../images/how-back5.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -789,8 +777,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 .ml12 { 
-    
-    
     text-align: center;
     vertical-align: middle;
     margin-top: 200px;
@@ -798,7 +784,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     font-size: 3vw; 
     text-transform: uppercase; 
     letter-spacing: 5px; 
-    
 } 
 
 
@@ -824,7 +809,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 .ml12 .letter { 
     display: inline-block; 
     line-height: 1em;
-    
 }
 
 
@@ -864,26 +848,21 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 
 #how-video-head{
-   
     background-attachment: fixed;
     position: absolute;
     top: 0;
     max-height: 500px;
     width: 100vw;
     z-index: -12;
-    
 }
+
 @media(min-width: 435px){
     #how-video-head{
         background-color: #000;
-        
-    }
+        }
 }
 
-
-
 .ml5 { 
-    
     display: flex;
     margin-top:200px;
     justify-content: space-around;   
@@ -891,7 +870,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     font-weight: 800; 
     font-size: 40px; 
     color:#fff; 
-    
     z-index: -1;
 } 
 
@@ -917,7 +895,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 .ml5 .ampersand { 
-    
     font-weight: 400; 
     width: 1em; 
     margin-right: -0.1em; 
@@ -942,7 +919,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text; 
     -moz-text-fill-color: transparent;
-    
 }
 
 @media(min-width: 1024px){
@@ -962,7 +938,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 *
 */
 
-
 #container-video{
     display: flex;
     position: absolute;
@@ -971,7 +946,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     vertical-align: middle;
     justify-content: space-around;
     width: 100vw;
-   
     height: auto;
 }
 
@@ -980,11 +954,9 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     justify-content: space-around;
     height: 650px;
     flex-flow: column;
-    
 }
 
 #container-video > .section1 > div{
-    
     max-width: 300px;
     margin: auto;
 }
@@ -998,7 +970,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     }
 
 #container-video > .section2 > div{
-    
     max-width: 300px;
     margin: auto;
 }
@@ -1013,7 +984,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 #container-video > .section3 > div{
-    
     max-width: 300px;
     margin: auto;
 }
@@ -1067,7 +1037,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     height: 300px;
     align-items: center;
     justify-content: space-around;
-    background-image: url('images/letter-back.jpg');
+    background-image: url(../images/letter-back.jpg);
     background-attachment:fixed;
     background-position: center;
     background-size: 100% 100%;
@@ -1090,7 +1060,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 #letter-p{
     color: black;
     margin: 50px auto;
-    
 }
 
 
@@ -1110,7 +1079,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     height: 300px;
     align-items: center;
     justify-content: space-around;
-    background-image: url('images/wood-back.jpg');
+    background-image: url(../images/wood-back.jpg);
     background-attachment:fixed;
     background-position: center;
     background-size: 100% 100%;
@@ -1121,15 +1090,11 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 .ml2-wood { 
     font-weight: 900; 
     font-size: 11vw; 
-   
 } 
-
-
 
 
 .ml2-wood .letter-wood { 
     display: inline-block; 
-    
 }
 
 #wood-h1{
@@ -1143,7 +1108,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 #wood-p{
     color: #000;
     margin: 50px auto;
-    
 }
 
 
@@ -1163,7 +1127,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     height: 300px;
     align-items: center;
     justify-content: space-around;
-    background-image: url('images/zentangle-back.jpg');
+    background-image: url(../images/zentangle-back.jpg);
     background-attachment:fixed;
     background-position: center;
     background-size: 100% 100%;
@@ -1171,13 +1135,10 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 .ml12-zen { 
-    
     margin-top: 100px;
     margin-bottom: 20px;
     text-align: center;
 } 
-
-
 
 .ml12-zen .letter-zen { 
     display: inline-block; 
@@ -1196,10 +1157,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 
-
-
-
-
 #zentangle-p{
     color: #000;
     margin: 50px auto;
@@ -1215,21 +1172,21 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 *
 *
 */
+
 .gallery{
    display: grid;
-   
    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
    gap: 20px;
    margin-top: 100px;
    padding: 25px;
 }
+
 .gallery img {
   width: 100%;
   display: block;
   border-radius: 5px;
   border: 1px solid #000;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
- 
 }
   
   
