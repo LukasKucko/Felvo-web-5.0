@@ -603,8 +603,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     background-repeat: no-repeat;
 }
 
-
-
 .ml9 { 
     position: absolute;
     display: flex;
@@ -632,7 +630,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     transform-origin: 50% 100%; 
     display: inline-block; 
     color: #000;
-    
 }
 
 @media(min-width: 1024px){
@@ -640,8 +637,8 @@ nav .m-menu__checkbox:checked ~ .m-menu {
         width: 70vw;
         top:70px;
         left: 15vw;
-        font-size: 5vw;
-        }
+        font-size: 5vw;        
+    }
 }
 
 @media(min-width: 2560px){
@@ -690,8 +687,8 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     text-align: center;
     background-color: transparent;
 }
-
-
+    
+   
 
 #container-portfolio{
     display:flex;
