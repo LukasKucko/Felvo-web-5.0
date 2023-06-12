@@ -428,15 +428,10 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 @media(min-width: 2550px){
-
     .gallery > a > img{
-
         width: 300px;
-
         height: 450px;
-
     }
-
 }
 
 
@@ -464,6 +459,23 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     background-repeat: no-repeat;
 }
 
+@media(min-width: 1024px){
+    #calli-back{
+       width: 100vw;
+       height: 100vh;
+    }
+}
+
+@media(min-width: 2560px){
+    #calli-back{
+       width: 100vw;
+       height: 100vh;
+       background-size: cover;
+    }
+}
+
+
+
 .ml12-calli { 
     font-weight: 900; 
     font-size: 22vw; 
@@ -479,6 +491,18 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     line-height: 1em; 
 }
 
+@media(min-width: 1024px){
+    .ml12-calli{
+        font-size: 10vw;
+    }
+}
+
+
+@media(min-width: 2560px){
+    .ml12-calli{
+        font-size: 6vw;
+    }
+}
 
 #cali-p{
     margin: 50px auto;
