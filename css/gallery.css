@@ -1062,6 +1062,11 @@ nav .m-menu__checkbox:checked ~ .m-menu {
   }
 }
 
+@media(min-width: 2560px){
+  #how-h1-lettering{
+      font-size: 4vw;
+  }
+}
 
 /*
 *
