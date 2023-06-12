@@ -1233,6 +1233,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     font-size: 11vw; 
 } 
 
+@media(min-width: 2460px){
+    .ml2-wood{
+        font-size: 6vw;
+    }
+}
+
 
 .ml2-wood .letter-wood { 
     display: inline-block; 
