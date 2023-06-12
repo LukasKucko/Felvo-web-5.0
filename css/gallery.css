@@ -496,7 +496,11 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 */
 
 #glass-back{
-    
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
     background-image: url(../images/glass-back.jpg); 
     background-attachment: fixed;
     background-position: center;
@@ -517,9 +521,37 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     margin-bottom: 20px;
     justify-content: space-around;
     font-size: 16vw;
-    color:white; 
+    color: #fff; 
 } 
 
+@media(min-width: 1024px){
+    #glass-back{
+       width: 100vw;
+       height: 100vh;
+    }
+}
+
+@media(min-width: 2560px){
+    #glass-back{
+       width: 70vw;
+       left: 15vw;
+       height: 100vh;
+       background-size: cover;
+    }
+}
+
+@media(min-width: 1024px){
+    .ml10-glass{
+        font-size: 10vw;
+    }
+}
+
+
+@media(min-width: 2560px){
+    .ml10-glass{
+        font-size: 6vw;
+    }
+}
 
 
 .ml10-glass .text-wrapper-glass { 
