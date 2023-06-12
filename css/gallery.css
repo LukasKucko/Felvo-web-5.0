@@ -632,6 +632,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     color:#000;  
 } 
 
+@media(min-width: 1024px){
+   .ml9-gold{
+       font-size: 60px;
+   } 
+} 
+
 .ml9-gold .text-wrapper-gold { 
     position: relative; 
     display: inline-block; 
