@@ -991,12 +991,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     z-index: -12;
 }
 
-@media(min-width: 435px){
-    #how-video-head{
-        background-color: #000;
-        }
-}
-
 .ml5 { 
     display: flex;
     margin-top:200px;
