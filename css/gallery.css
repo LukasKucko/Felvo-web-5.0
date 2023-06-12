@@ -833,7 +833,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     flex-flow: column;
     background-color: none;
     width:100vw;
-    height: 2400px;
+    height: 2600px;
 }
 
 
@@ -845,6 +845,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     vertical-align: middle;
     text-decoration: none;
     font-size: 12vw;
+}
+
+@media(min-width: 1024px){
+    #h2-portfolio{
+        font-size: 4vw;
+    }
 }
 
 #home-p-center{
@@ -862,6 +868,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     margin-top: 60px;
     text-align: center;
     font-size: 8vw;
+}
+
+@media(min-width: 1024px){
+    #home-p-center > p {
+        font-size: 3vw;
+    }
 }
 
 
