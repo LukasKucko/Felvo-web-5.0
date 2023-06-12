@@ -427,7 +427,17 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     margin: 50px auto;
 }
 
+@media(min-width: 2550px){
 
+    .gallery > a > img{
+
+        width: 300px;
+
+        height: 450px;
+
+    }
+
+}
 
 
 
