@@ -1281,6 +1281,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     background-repeat: no-repeat;
 }
 
+@media(min-width: 2560px){
+    #zentangle-back{
+        background-size: cover;
+    }
+}
+
 .ml12-zen { 
     
     margin-top: 100px;
