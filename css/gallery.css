@@ -886,10 +886,11 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 
 #how-back{
-    display: block;
+    display: flex;
     width: 100vw;
-    height: 55vh;
-    
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
     background-image: url(../images/how-back5.jpg);
     background-position: center top;
     background-size: cover;
@@ -960,6 +961,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text; 
     -moz-text-fill-color: transparent;
+}
+
+@media(min-width: 1024px){
+    .how-h2{
+        font-size: 6vw;
+    }
 }
 
 
