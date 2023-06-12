@@ -924,17 +924,16 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 @media(min-width: 2560px){
     #how-back{
-        background-size: contain;
+        background-size: 40% 100%;
         background-position: center;
     }
 }
 
 
-
 .ml12 { 
     text-align: center;
     vertical-align: middle;
-    margin-top: 200px;
+    margin-top: 100px;
     font-weight: 800; 
     font-size: 3vw; 
     text-transform: uppercase; 
@@ -944,7 +943,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 @media(max-width: 375px){
     .ml12{
-        margin-top: 150px;
+        margin-top: 60px;
     }
 }
 
@@ -956,13 +955,14 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 @media(min-width: 1024px){
     .ml12{
-        margin-top: 400px;
+        margin-top: 200px;
     }
 }
 
 @media(min-width: 2560px){
     .ml12{
-        margin-top: 200px;
+        margin-top: 100px;
+        font-size: 1.5vw;
     }
 }
 
