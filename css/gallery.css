@@ -668,17 +668,15 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 
-
 .ml9 { 
     position: absolute;
     display: flex;
     width: 90vw;
     left: 5vw;
     vertical-align: middle;
-    font-family: 'Bungee Shade', cursive;
     top: 70px;
     font-weight: 800; 
-    font-size: 6vw; 
+    font-size: 10vw; 
     z-index: 0; 
     
 } 
@@ -696,8 +694,10 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 .ml9 .letter { 
     transform-origin: 50% 100%; 
     display: inline-block; 
-    color: #000;
+    color: #fff;
+    
 }
+
 
 
 @media(min-width: 1024px){
@@ -705,7 +705,8 @@ nav .m-menu__checkbox:checked ~ .m-menu {
         width: 70vw;
         top:70px;
         left: 15vw;
-        font-size: 5vw;        
+        font-size: 5vw;
+        
     }
 }
 
@@ -725,11 +726,14 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 
+
 @media(min-width:1024px) and (min-height: 1366px){
     .ml9{
         top:150px;
     }
 }
+
+
 
 #home-video{
     display: block;
@@ -786,12 +790,15 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     display: block;
     position: absolute;
     top: 65vh;
-    width: 56%;
-    left: 22%;
+    width: 90%;
+    left: 5%;
     font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
     vertical-align: middle;
     text-align: center;
     background-color: transparent;
+    color:#fff;
+    fon
 }
 
 @media(min-width: 1024px){
@@ -807,7 +814,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     }
 }
 
-@media(min-width:768px) and (miheight:1024px){
+@media(min-width:768px) and (min-height:1024px){
     #home-h2{
         top:80vh;
     }
@@ -818,18 +825,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     #home-h2{
         font-size:4vw;
     }
-}   
+}
 
 #home-img{
     display: block;
     margin: 60px auto;
 }
-
-    
-
-    
-     
-
 
 /*
 *
