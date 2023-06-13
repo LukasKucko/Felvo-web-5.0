@@ -660,7 +660,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     display: block;
     width:100vw;
     height:100vh;
-    background-image: url('../images/home-back2.jpg');
+    background-image: url('../images/home-head-back.jpg');
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
@@ -807,7 +807,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     }
 }
 
-@media(min-width:768px) and (min-height:1024px){
+@media(min-width:768px) and (miheight:1024px){
     #home-h2{
         top:80vh;
     }
@@ -820,59 +820,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     }
 }   
 
-#container-portfolio{
-    display:flex;
-    flex-flow: column;
-    background-color: none;
-    width:100vw;
-    height: 2600px;
-}
-
-
-#h2-portfolio{
-    margin-bottom: 50px;
-    margin-top: 100px;
-    font-family: 'Bungee Shade', cursive;
-    text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
-    font-size: 12vw;
-}
-
-@media(min-width: 1024px){
-    #h2-portfolio{
-        font-size: 4vw;
-    }
-}
-
-#home-p-center{
+#home-img{
     display: block;
-    height: 900px;
-    margin-top: 15px;
-    overflow: visible;
+    margin: 60px auto;
+}
+
     
-}
-
-#home-p-center > p{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    margin-top: 60px;
-    text-align: center;
-    font-size: 8vw;
-}
-
-@media(min-width: 1024px){
-    #home-p-center > p {
-        font-size: 3vw;
-    }
-}
-
-
-#home-p-center > p > a{
-    text-decoration: none;
-    color:#000;
-}
 
     
      
