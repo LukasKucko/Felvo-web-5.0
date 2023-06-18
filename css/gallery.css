@@ -893,7 +893,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 #home-video{
     display: block;
     position: absolute;
-    top: 0;
+    top: 80px;
     height: 600px;
     width: 80vw;
     left: 10vw;
