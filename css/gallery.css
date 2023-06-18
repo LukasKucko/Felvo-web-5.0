@@ -895,8 +895,8 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     position: absolute;
     top: 0;
     height: 600px;
-    width: 50vw;
-    left: 25vw;
+    width: 80vw;
+    left: 10vw;
     padding-bottom: 40px;
     vertical-align: middle;    
 }
