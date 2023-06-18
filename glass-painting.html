@@ -99,7 +99,7 @@
  </div>
 </nav>
 </div>
-<section>
+<header>
 <h1 id="glass-back" class="ml10-glass"> 
     <span class="text-wrapper-glass"> 
         <span class="letters-glass">Glass painting</span> 
@@ -107,7 +107,7 @@
         </h1> 
 <script>
  textWrapper = document.querySelector('.ml10-glass .letters-glass'); textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter-glass'>$&</span>"); anime.timeline({loop: false}) .add({ targets: '.ml10-glass .letter-glass', rotateY: [-90, 0], duration: 1300, delay: (el, i) => 80 * i });</script>
-</section>
+</header>
 <section>
 <!-- class for page animation -->
 <div data-aos="fade-up"      data-aos-anchor-placement="top-center">
