@@ -944,7 +944,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 #home-h2{
     display: block;
     position: absolute;
-    top: 65vh;
+    top: 75vh;
     width: 90%;
     left: 5%;
     font-family: 'Eagle Lake', cursive;
