@@ -280,7 +280,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     align-items: center;
     object-fit: cover;
     margin: 100px auto;
-    border-radius: 5px;
 }
 
 @media(max-width: 375px){
@@ -1501,7 +1500,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 .gallery img {
   width: 100%;
   display: block;
-  border-radius: 5px;
   border: 1px solid #000;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
