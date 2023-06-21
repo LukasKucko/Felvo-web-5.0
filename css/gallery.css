@@ -86,18 +86,19 @@ p{
 }
 
 nav > .art-zem{
-    display: block;
+   display: inline-block;
     position: absolute;
-    top: -1.5%;
-    left:25%;
-    overflow:hidden;
-    font-size: 45px;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+    font-size: 36px;
     letter-spacing: 5px;
     font-family: 'Alex Brush', cursive;
-    font-weight: bolder;
+    font-weight: lighter;
     text-shadow:  1px 1px 10px #ffffff;
     color: #ffffff;
     margin: 5px auto;
+    overflow: visible;    
 }
 
 nav {
