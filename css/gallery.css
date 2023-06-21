@@ -304,31 +304,25 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     box-shadow: none;
 }
 
-#social-container{
-   display: grid;
-   grid-auto-columns: 1fr;
-   grid-template-areas: 
-   "contact"
-   "social";
-   width: 100%;
-   height: 200px;
-   background-color: none;
-}
-
 #contact{
-    grid-area: contact;
+    display: block;
+    width: 80vw;
+    margin: 10px auto;
+    height: 100px;
     color: #000;
     font-size: 11px;
+    line-height: 10px;
+    text-align: center;
 }
 
 #social{
-    grid-area: social;
-    display: inline-flex;
+    display:flex;
     justify-content: space-around;
-    margin: auto;
-    width:300px;
-    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    height: 30px;
 }
+
 
 #call{
     background-image: url(../images/call2.png);
@@ -366,11 +360,14 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     background-repeat: no-repeat;
 }
 #webdesign{
-    
+    display: inline-block;
+    width: 100vw;
     text-decoration:none;
     color:#000000;
     text-align: center;
+    margin: 0 auto;
 }
+
 
 /*
 *
