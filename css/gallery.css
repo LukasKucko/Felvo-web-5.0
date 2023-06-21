@@ -89,7 +89,8 @@ nav > .art-zem{
    display: inline-block;
     position: absolute;
     top: 0;
-    width: 100vw;
+    width: 86vw;
+    left: 14vw;
     text-align: center;
     font-size: 36px;
     letter-spacing: 5px;
@@ -810,10 +811,11 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     top: 100px;
     font-family: 'Eagle Lake', cursive;
     font-weight: 800; 
-    font-size: 6.6vw; 
+    font-size: 7vw; 
     z-index: 0; 
     
 } 
+
 
 .ml9 .text-wrapper { 
     position: relative; 
