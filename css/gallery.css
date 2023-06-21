@@ -17,7 +17,7 @@
 
 /* Home font h1, h2  */
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 /* How it's made video */
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
@@ -93,7 +93,7 @@ nav > .art-zem{
     overflow:hidden;
     font-size: 45px;
     letter-spacing: 5px;
-    font-family: 'The Nautigal', cursive;
+    font-family: 'Alex Brush', cursive;
     font-weight: bolder;
     text-shadow:  1px 1px 10px #ffffff;
     color: #ffffff;
