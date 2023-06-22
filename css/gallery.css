@@ -78,12 +78,13 @@ p{
   left: 0;
   top: 0;
   width: 100%;
-  height: 400px;
+  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
   background: none;
   z-index: 1;
 }
+
 
 nav > .art-zem{
    display: inline-block;
@@ -145,7 +146,7 @@ nav .m-menu {
   transition: transform 0.6s ease-out;
   z-index: 150;
   overflow: hidden;
-  background-color: #b0b9d3;
+  background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%);
   
 }
 
@@ -190,7 +191,7 @@ nav .m-menu__header span {
   font-weight: lighter;
   text-align: center;
   width: 100%;
-  color: #000;
+  color: #fff;
   }
 
 nav .m-menu .m-menu {
@@ -212,7 +213,7 @@ nav .m-menu  ul  li a, nav  .m-menu  ul  li  label {
   text-align: center;  
   line-height: 40px; 
   text-decoration: none; 
-  color: #000;  
+  color: #fff;  
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: bold; 
@@ -236,7 +237,7 @@ nav .m-menu  ul  li a, nav  .m-menu  ul  li  label {
   top: 50%;
   margin-top: -5px;
   right: 16px;
-  color: #000;
+  color: #fff;
 }
 nav .m-menu ul li .-invisible {
   border-bottom: 0;  
