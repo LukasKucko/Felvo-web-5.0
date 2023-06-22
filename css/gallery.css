@@ -846,9 +846,16 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     font-weight: 800; 
     font-size: 7vw; 
     z-index: 0; 
-    
 } 
-
+@media(max-width: 320px){
+    .ml9{
+        width: 70vw;
+        top:70px;
+        left: 15vw;
+        font-size: 6vw;
+        
+    }
+}
 
 .ml9 .text-wrapper { 
     position: relative; 
