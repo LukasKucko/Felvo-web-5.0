@@ -149,6 +149,18 @@ nav .m-menu {
 }
 
 
+
+nav .m-menu__overlay {
+  background-color: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+  display: none;
+}
+
+
 nav .m-menu__header {
   padding: 0 16px;
   height: 50px;
