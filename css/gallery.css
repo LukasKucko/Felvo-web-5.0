@@ -270,12 +270,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 
 
-@media(min-height: 435px){
-    .wrapper{
-        float: left;
-    }
-}  
-  
   
 
 
