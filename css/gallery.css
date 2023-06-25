@@ -1245,7 +1245,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 
-#container-video  .section2{
+#container-video > .section2{
     display: flex;
     justify-content: space-around;
     height: auto;
@@ -1274,27 +1274,14 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 
 @media(min-width: 1024px){
-   #container-video > .section1{
-       flex-flow: row;
+   #container-video > .section1, #container-video > .section2, #container-video > .section3{
+       flex-direction: row;
        flex-wrap: wrap;
    }
 }
 
 
-@media(min-width: 1024px){
-   #container-video > .section2{
-       flex-flow: row;
-       flex-wrap: wrap;
-   }
-}
 
-
-@media(min-width: 1024px){
-   #container-video > .section3{
-       flex-flow: row;
-       flex-wrap: wrap;
-   }
-}
 
 
 
