@@ -1235,32 +1235,32 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 #container-video > .section1{
     display: flex;
     justify-content: space-around;
-    height: 650px;
+    height: auto;
     flex-flow: column;
 }
 
 #container-video > .section1 > div{
     max-width: 300px;
-    margin: auto;
+    margin: 50px auto;
 }
 
 
 #container-video  .section2{
     display: flex;
     justify-content: space-around;
-    height: 800px;
+    height: auto;
     flex-flow: column;
     }
 
 #container-video > .section2 > div{
     max-width: 300px;
-    margin: auto;
+    margin: 50px auto;
 }
 
 #container-video > .section3{
     display: flex;
     justify-content: space-around;
-    height: 1500px;
+    height: auto;
     margin-bottom: 100px;
     flex-flow: column;
     
@@ -1268,7 +1268,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 #container-video > .section3 > div{
     max-width: 300px;
-    margin: auto;
+    margin: 50px auto;
 }
 
 
