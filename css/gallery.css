@@ -289,13 +289,6 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 *
 */
 
-#about-back{
-   background-image: url(../images/about-back.jpg); 
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
 
 #about-p{
     margin-top: 30px;
@@ -303,29 +296,26 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     backdrop-filter: blur(2px);
 }
 
-
-
 #head-foto{
     display: flex;
     align-items: center;
     object-fit: cover;
-    margin: 100px auto;
+    margin: 50px auto ;
+    max-width: 100vw;
+    max-height: 80vh;
 }
 
-@media(max-width: 375px){
-    #head-foto{
-      width: 250px; 
-      height: 200px; 
-    }
-}
 
-@media(min-width: 768px){
+
+@media(min-width: 1024px){
     #head-foto{
       width: 450px; 
       height: 400px; 
     }
 }
 
+
+    
 #logo{
     display: flex;
     align-items: center;
