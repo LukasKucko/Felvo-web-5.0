@@ -1038,9 +1038,9 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 .ml12 { 
     text-align: center;
     vertical-align: middle;
-    margin-top: 200px;
+    margin-top: 150px;
     font-weight: 800; 
-    font-size: 4vw; 
+    font-size: 5vw; 
     text-transform: uppercase; 
     letter-spacing: 5px; 
     color: #fff;
@@ -1049,7 +1049,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 
 @media(max-width: 375px){
     .ml12{
-        margin-top: 60px;
+        margin-top: 100px;
     }
 }
 
