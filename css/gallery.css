@@ -269,7 +269,13 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
 
 
-
+#logo{
+    display: block;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: none;
+}
   
 
 
