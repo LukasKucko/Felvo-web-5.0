@@ -1003,7 +1003,7 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 #how-back{
     display: flex;
     width: 100vw;
-    height: 300px;
+    height: 600px;
     align-items: center;
     justify-content: space-around;
     background-image: url(../images/him37.png);
@@ -1038,11 +1038,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 .ml12 { 
     text-align: center;
     vertical-align: middle;
-    margin-top: 100px;
+    margin-top: 300px;
     font-weight: 800; 
-    font-size: 3vw; 
+    font-size: 3.2vw; 
     text-transform: uppercase; 
     letter-spacing: 5px; 
+    color: #fff;
 } 
 
 
