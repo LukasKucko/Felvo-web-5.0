@@ -984,6 +984,12 @@ nav .m-menu__checkbox:checked ~ .m-menu {
     }
 }
 
+#h2-offer{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+}
+
 #home-img{
     display: block;
     margin: 60px auto;
