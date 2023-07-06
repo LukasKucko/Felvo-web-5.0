@@ -278,11 +278,53 @@ nav .m-menu__checkbox:checked ~ .m-menu {
 }
   
 
+/*
+*
+*
+*
+Fixed footer
+*
+*
+*
+*/
 
+.flex-btn{
+    position: fixed;
+    display: flex;
+    top: 96vh;
+    height: 4vh;
+    width: 100vw;
+    z-index: 1000000;
+}
+.btn-center{
+    justify-content: space-around;
+}
 
- 
+#button-footer{
+    display: inline-block;
+    width: 120px;
+    background: linear-gradient(178.6deg, rgb(124, 143, 161) 11.8%, rgb(20, 36, 50) 83.8%);
+    text-align: center;
+    color:#f3f3f3;
+    font-size: 5vw;
+    cursor: pointer;
+    animation-name: sticky-footer;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
 
-
+@keyframes sticky-footer {
+    0%{
+       width: 120px;
+    }
+    50%{
+        width: 140px;
+    }
+    100%{
+        width: 120px;
+    }
+}
 
 
 /*
