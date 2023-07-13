@@ -842,43 +842,29 @@ Fixed footer
 
   
 
-
-
-
-
-#img-home-head{
-    display: block;
+ #img-home-head{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
     width:100vw;
     height:100vh;
-    background-image: url('../images/home-head-back.jpg');
-    background-attachment: scroll;
+    background-image: url('/storage/emulated/0/Marek/Background/home-head-back.jpg');
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-
 .ml9 { 
-    position: absolute;
     display: flex;
-    width: 90vw;
-    left: 5vw;
+    margin-top: 50px;
     vertical-align: middle;
-    top: 100px;
     font-family: 'Eagle Lake', cursive;
     font-weight: 800; 
     font-size: 7vw; 
     z-index: 0; 
 } 
-@media(max-width: 320px){
-    .ml9{
-        width: 70vw;
-        top:70px;
-        left: 15vw;
-        font-size: 5vw;
-        
-    }
-}
+
 
 .ml9 .text-wrapper { 
     position: relative; 
@@ -894,94 +880,26 @@ Fixed footer
     transform-origin: 50% 100%; 
     display: inline-block; 
     color: #fff;
-    
 }
 
 
-
-@media(min-width: 1024px){
-    .ml9{
-        width: 70vw;
-        top:70px;
-        left: 15vw;
-        font-size: 5vw;
-        
-    }
-}
-
-@media(min-width: 2560px){
-    .ml9{
-        width: 50vw;
-        top:60px;
-        left: 25vw;
-        font-size: 3vw;
-    }
-}
-
-@media(min-width:768px) and (min-height:1024px){
-    .ml9{
-        top:150px;
-    }
-}
-
-
-
-@media(min-width:1024px) and (min-height: 1366px){
-    .ml9{
-        top:150px;
-    }
-}
+#div-video{
+    display: block;
+    width: 100vw;
+    height: 320px;
+   }
 
 
 
 #home-video{
-    display: block;
-    position: absolute;
-    top: 80px;
-    height: 600px;
-    width: 80vw;
-    left: 10vw;
-    padding-bottom: 40px;
-    vertical-align: middle;    
+   display: block;
+   top: 0;
+   margin: auto;
+   vertical-align: middle; 
 }
 
 #home-video > video{
-    align-content: center;
-    margin: auto;
-}
-
-
-@media(min-width: 1024px){
-   #home-video{
-       width:20vw;
-       left:40vw;
-   } 
-}
-
-
-@media(min-width: 2560px){
-   #home-video{
-       width:20vw;
-       left:80vw;
-       height:90vh;
-       top:15vh;
-   } 
-}
-
-@media(min-width:768px) and (min-height:1024px){
-    #home-video{
-        top:20vh;
-    }
-}
-
-@media(min-width:1024px) and (min-height: 1366px){
-    #home-video{
-        top:30vh;
-        width:80vw;
-        height: 60vw;
-        left:10vw;
-        
-    }
+align-content: center;
 }
 
 
